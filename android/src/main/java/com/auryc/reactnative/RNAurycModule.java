@@ -18,7 +18,7 @@ import java.util.HashMap;
 
 
 import com.Auryc;
-import com.auryc.android_sdk_voc.shared.Constant;
+//import com.auryc.android_sdk_voc.shared.Constant;
 
 public class RNAurycModule extends ReactContextBaseJavaModule {
 
@@ -217,7 +217,7 @@ public class RNAurycModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public static final void aurycSDKVersionString(final Promise promise) {
-    promise.resolve(Auryc.aurycSDKVersionString());
+//    promise.resolve(Auryc.aurycSDKVersionString());
   }
 
   @ReactMethod
