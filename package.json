@@ -1,6 +1,6 @@
 {
   "name": "rn-auryc-sdk-voc",
-  "version": "2.3.0",
+  "version": "2.3.11",
   "description": "React native bridge library for Auryc SDK VOC Only",
   "main": "index.js",
   "scripts": {
