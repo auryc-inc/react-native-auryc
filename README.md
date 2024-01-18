@@ -105,6 +105,23 @@ Auryc.addUserProperties({'company': 'Example Inc'});
 npx react-native run-android
 ```
 
+## Expo Using
+
+Add plugin into `app.json`
+
+```JSON
+...
+"plugins": [
+  ["rn-auryc-sdk", {
+    "aurycToken": "YOUR_SITE_TOKEN",
+    "aurycSiteId": "YOUR_SITE_ID"
+  }],
+]
+...
+```
+
+`Not works` with Expo Go
+
 
 ## Other notes
 ### Android integration
